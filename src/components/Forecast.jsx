@@ -17,7 +17,7 @@ function Forecast(props) {
                         <p className='font-light text-sm'>
                             {item.title}
                         </p>
-                        <image src={iconUrlFromCode(item.icon)} alt="not loaded" className='w-12 my-1'/>
+                        <img src={iconUrlFromCode(item.icon)} alt="not loaded" className='w-12 my-1'/>
                         <p className='font-medium'>{`${item.temp.toFixed()}°`}</p>
                     </div>
                 );
